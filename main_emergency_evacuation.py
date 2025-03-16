@@ -86,7 +86,7 @@ def main(args):
         need_obstacle=bool(args.need_obstacle),
         random_agent=bool(args.random_agent),
         is_panic=bool(args.is_panic),
-        model="gpt-4-0314",
+        model="gpt-4-turbo",
         api_key=api_key,
     )
     for step_count in tqdm(range(51), desc="Simulation Processing"):
